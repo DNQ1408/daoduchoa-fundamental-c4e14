@@ -43,7 +43,7 @@ while loop_1:
                 for index, item in enumerate(shopitems):
                     print(item, sep=',')
                 loop_1_2 = False
-    elif command is 'E':
+    elif command == 'exit' or command == 'quit':
         loop_1 = False
     else:
         print('Wrong Command')
