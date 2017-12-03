@@ -10,7 +10,7 @@ while lo < hi and not found:
     if x == num:
         found = True
     elif x < num:
-        hi = mid # hi = mid - 1 với điều kiện đầu hi = len() - 1 và while lo < hi
+        hi = mid # hi = mid - 1 với điều kiện đầu hi = len() - 1 và while lo <= hi
     else:
         lo = mid + 1
 
